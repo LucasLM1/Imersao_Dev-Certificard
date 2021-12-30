@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root{
+    --black: #1C1C1C;
+    --orange: #FF7F50;
+}
+
 body {
     background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
     font-family: "Roboto", sans-serif;
 }
 
 .container {
-    background-image: linear-gradient(220deg, #FF7F50, #d38484);
-    color: #1c1c1c;
+    background-color: var(--orange);
+    color: var(--black);
     margin: 64px;
     border-radius: 20px;
-    box-shadow: 6px 6px 6px #0e1d2f;
+    box-shadow: 6px 6px 6px #0050b1;
     padding: 64px;
 }
 
@@ -78,7 +83,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--black);
 }
 
 a:hover {
@@ -90,24 +95,24 @@ a:hover {
 }
 
 .dark .container {
-    background-image: linear-gradient(220deg, #000000, #3d3d3d);
-    color: #F6F6F6;
+    background-image: linear-gradient(220deg, #1C1C1C, #3d3d3d);
+    color: var(--orange);
 }
 
 .dark .portfolio {
-    color: #1C1C1C;
+    color: var(--black);
 }
 
 .dark .tema button {
-    color: #FFFFFF;
-    background: #1C1C1C;
+    color: var(--orange);
+    background: var(--black);
     box-sizing: border-box;
     border-radius: 100px;
-    border: 2px solid #F7F7F7;
+    border: 2px solid var(--orange);
 }
 
 hr{
-    border: 1px solid #000;
+    border: 1px solid var(--black);
 }
 .footerFake{
     display: flex;
