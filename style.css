@@ -41,7 +41,7 @@ body {
 
 .tema button {
     position: relative;
-    left: 380%;
+    left: 330px;
     align-self: flex-end;
     font-size: 16px;
     padding: 8px 16px;
@@ -112,4 +112,15 @@ hr{
 .footerFake{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:1200px){
+    .tema button {
+        left: 165px;
+    }
+}
+@media (max-width:1024px){
+    .tema button {
+        left: 100px;
+    }
 }
